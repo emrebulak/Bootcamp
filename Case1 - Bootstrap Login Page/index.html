@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/all.min.js"></script>
     <title>Bootstrap Login Page</title>
 </head>
 
@@ -14,9 +15,9 @@
 
     <!-- Login Card -->
 
-    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 loginCard">
-        <div class="card">
-            <div class="card-body">
+    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 loginCard ">
+        <div class="card border-0 ">
+            <div class="card-body m-2 ">
                 <h5 class="card-title text-center my-3 h3">Register</h5>
                 <h6 class="card-subtitle mb-2 text-muted text-center my-3 mb-4 h6">Fill out this form</h6>
 
@@ -29,37 +30,81 @@
 
                     </div>
                     <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Input 2">
+
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control p-3 bg-light border-0" placeholder="Last Name">
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Input 3">
+                        <div class="input-group mb-2">
+
+                            <div class="input-group-append text">
+                                <span class="input-group-text border-0 bg-light text-light">
+                                    <i class="fas fa-user py-4 fa-lg"></i>
+                                </span>
+                            </div>
+
+                            <input type="text" class="form-control py-3 bg-light border-0" placeholder="Username">
+                            
+                        </div>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Input 4">
+                        
+                        <div class="input-group mb-2">
+
+                            <div class="input-group-append text">
+                                <span class="input-group-text border-0 bg-light text-light">
+                                    <i class="fa-solid fa-envelope py-4 fa-lg"></i>
+                                </span>
+                            </div>
+
+                            <input type="text" class="form-control p-3 bg-light border-0" placeholder="E-mail Address">
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Input 5">
+                        
+                        <div class="input-group mb-2">
+
+                            <div class="input-group-append text">
+                                <span class="input-group-text border-0 bg-light text-light">
+                                    <i class="fa-solid fa-key py-4 fa-lg"></i>
+                                </span>
+                            </div>
+
+                            <input type="text" class="form-control p-3 bg-light border-0" placeholder="Password">
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
-                        Onaylama kısmı
+                        <div class="form-check my-2">
+                            <input class="form-check-input p-2 me-2" type="checkbox" id="check">
+                            <label class="form-check-label" for="check">
+                              I agree with the 
+                              <a href="#">Terms and Conditions</a>
+                              and the
+                              <a href="#">Privacy Policy</a>
+                            </label>
+                          </div>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
-                        <button class="btn btn-primary col-12">Gönder</button>
+                        <button class="btn btn-primary btn-lg col-12 my-2 rounded-1">Create Account</button>
                     </div>
                 </div>
             </div>
@@ -69,9 +114,6 @@
     <!-- Login Card -->
 
 
-
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>

@@ -1,7 +1,30 @@
 .loginCard{
-    background-color: #F8F9FA;
+    background-color: #6805A7;
 }
 
 .card{
     width: 30% !important;
+}
+
+.bg-light{
+    background-color: #EDEFEE !important;
+}
+
+.text-light{
+    color: #929499 !important;
+}
+
+a{
+    text-decoration: none;
+    color: #A3ADAA;
+    font-weight: bold;
+}
+
+.form-check-label{
+    color: #5f6362 !important;
+}
+
+.btn-primary{
+    background-color: #319AED !important;
+    font-weight: bold !important;
 }
